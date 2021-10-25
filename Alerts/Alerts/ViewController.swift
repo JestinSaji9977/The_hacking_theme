@@ -19,8 +19,10 @@ class ViewController: UIViewController {
             self.view.backgroundColor = UIColor.yellow
         }, handlerCancel: {actionCancel in
             self.view.backgroundColor = UIColor.systemOrange
+            self.view.backgroundColor = .yellow
         })
     }
+    //add comments
     @IBAction func clickSave(_ sender: Any) {
         let alertView = UIAlertController(title: "Save", message: "Do you really want to save?", preferredStyle: .actionSheet)
 //        let cancel = UIAlertAction(title: "Cancel", style: .destructive) {(action) in
